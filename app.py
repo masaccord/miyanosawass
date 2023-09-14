@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 
-aa = './.streamlit/logo.png'
+aa = 'logo.png'
 image = Image.open(aa)
 st.set_page_config(
     page_title="宮野沢変電所 重点監視サイト", 
